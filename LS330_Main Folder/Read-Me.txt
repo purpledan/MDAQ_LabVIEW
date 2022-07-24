@@ -1,0 +1,24 @@
+8-March-22
+****** Read-Me file for LS335 Temperature Controller LabVIEW Program *******
+
+Notes:
+* LOG FILE SETTINGS:
+You need to select the desired folder only, where you want the log files to be saved in. 
+You may also change the prefix of the saved files.
+The file will be stored as prefixYYYY_MM_DD.txt (default is Log_YYYY_MM_DD.txt).
+Do this before starting the run.   
+If you want to change the log settings during a run,
+stop the run, change the settings, and then restart the run.
+
+* AT STARTUP: if the program doesn't see the LS335, make sure that VISA ID is set to COM9 under the OPTIONS TAB.
+
+* FOR RAMPING: first set and achieve the initial temperature you want to start a ramp from.
+	Then input the desired temperature you want to ramp to, set the ramp rate, and then enable the 'Toggle Ramping' slider before pressing the 'Send Settings' button.
+	Both the 'Ramp Enabled' and 'Ramp Busy' lights should be on and indicates that the LS335 is ramping to your desired temperature. NOTE: The 'Set Temp' indicator shows the steps towards the 'Target' temperature.
+	
+	Once the 'Ramp' busy lights are off, the LS335 has finished the ramp procedure.
+	You may then either switch of the ramp slider which would revert the LS335 to the usual behaviour, or input a new set-point with the ramp slider still on. This will cause another ramp to occur.
+
+	If 'Send Settings' is pressed again with the 'Toggle Ramping' switch enabled, the ramp target is adjusted to the new value.
+	
+

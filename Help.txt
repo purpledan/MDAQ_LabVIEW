@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------
+MDAQ209
+-------------------------------------------------------------------------
+Available commands:
+U: Set time BASE   (Default:16E3=10Hz, Min:0200=114Hz, Max:FFFF=0.9Hz)
+                   (freq=120E6*STEP/CHAN/BASE)
+K: Set AMPLTUDE    (0000=+3.3V, Default:1000=-1.65V, 3FFF=-3.3V
+P: Set ch STEP     (Default:0001)
+G: Set GATESTRT ch (Default:0100)
+g: Set GATESTOP ch (Default:06FF)
+N: Set N_CYCLES    (Default:0000=inf)
+M: Get M_CYCLES
+m: Get SUM of the spectrum from channels G to g
+R: Reset everything
+S: Start - no M_CYCLES reset
+T: Stop
+Z: Clear spectrum and reset M_CYCLES
+L: Select waveform (+A:MAC DEFAULT, +V:MVC or +P:PROG)
+W: Set waveform
+X: Get waveform
+Y: Get ASCII spectrum (hex 8 char)
+I: Get binary spectrum (int 32b)
+J: Get binary spectrum (short 16b)
+V: Get binary spectrum (char 8b)
+H: This window
+h: Get status line only
+q: Get firmware version only
+-------------------------------------------------------------------------
+Status:
+STOPPED
+CHAN BASE STEP N_CYCLES M_CYCLES AMPLTUDE GATESTRT GATESTOP
+0800 07A1 0001 00000000 00000000 00001000 00000100 000006FF
