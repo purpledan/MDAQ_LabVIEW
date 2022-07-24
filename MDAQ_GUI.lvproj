@@ -15,13 +15,16 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="AnalysisProgram" Type="Folder">
 			<Item Name="ANAL_AddData.vi" Type="VI" URL="../FunctionVIS/ANAL_AddData.vi"/>
+			<Item Name="ANAL_BinSummer.vi" Type="VI" URL="../FunctionVIS/ANAL_BinSummer.vi"/>
 			<Item Name="ANAL_Data.ctl" Type="VI" URL="../FunctionVIS/ANAL_Data.ctl"/>
+			<Item Name="ANAL_DataGrapher.vi" Type="VI" URL="../FunctionVIS/ANAL_DataGrapher.vi"/>
 			<Item Name="ANAL_DeriveData.vi" Type="VI" URL="../FunctionVIS/ANAL_DeriveData.vi"/>
 			<Item Name="ANAL_DeriveDataHelper.vi" Type="VI" URL="../FunctionVIS/ANAL_DeriveDataHelper.vi"/>
 			<Item Name="ANAL_DQ.vi" Type="VI" URL="../FunctionVIS/ANAL_DQ.vi"/>
 			<Item Name="ANAL_GUIStatus.ctl" Type="VI" URL="../FunctionVIS/ANAL_GUIStatus.ctl"/>
 			<Item Name="ANAL_ProtoGraph.vi" Type="VI" URL="../FunctionVIS/ANAL_ProtoGraph.vi"/>
 			<Item Name="ANAL_State.ctl" Type="VI" URL="../FunctionVIS/ANAL_State.ctl"/>
+			<Item Name="ANAL_TimeSummer.vi" Type="VI" URL="../FunctionVIS/ANAL_TimeSummer.vi"/>
 			<Item Name="ANAL_TREECluster.ctl" Type="VI" URL="../FunctionVIS/ANAL_TREECluster.ctl"/>
 			<Item Name="ANAL_TreeString.vi" Type="VI" URL="../FunctionVIS/ANAL_TreeString.vi"/>
 			<Item Name="ANAL_UpdateIndex.vi" Type="VI" URL="../FunctionVIS/ANAL_UpdateIndex.vi"/>
@@ -41,10 +44,14 @@
 			<Item Name="MDAQ_StopAq.vi" Type="VI" URL="../FunctionVIS/MDAQ_StopAq.vi"/>
 		</Item>
 		<Item Name="File_Blocks" Type="Folder">
+			<Item Name="AUX_LineWrite.vi" Type="VI" URL="../FunctionVIS/AUX_LineWrite.vi"/>
+			<Item Name="MDAQ_DataWriter.vi" Type="VI" URL="../FunctionVIS/MDAQ_DataWriter.vi"/>
+			<Item Name="MDAQ_ReadDatfile.vi" Type="VI" URL="../FunctionVIS/MDAQ_ReadDatfile.vi"/>
 			<Item Name="MDAQ_SaveCVFile.vi" Type="VI" URL="../FunctionVIS/MDAQ_SaveCVFile.vi"/>
 			<Item Name="MDAQ_SaveCVSpectrums.vi" Type="VI" URL="../FunctionVIS/MDAQ_SaveCVSpectrums.vi"/>
 			<Item Name="MDAQ_SaveSpectrum.vi" Type="VI" URL="../FunctionVIS/MDAQ_SaveSpectrum.vi"/>
 			<Item Name="MDAQ_SpectrumLoad.vi" Type="VI" URL="../FunctionVIS/MDAQ_SpectrumLoad.vi"/>
+			<Item Name="MDAQ_WriteFileHeader.vi" Type="VI" URL="../FunctionVIS/MDAQ_WriteFileHeader.vi"/>
 		</Item>
 		<Item Name="Helper_Blocks" Type="Folder">
 			<Item Name="MDAQ_ArrayHelp.vi" Type="VI" URL="../FunctionVIS/MDAQ_ArrayHelp.vi"/>
@@ -58,6 +65,7 @@
 			<Item Name="MDAQ_IndexIncNew.vi" Type="VI" URL="../MDAQ_IndexIncNew.vi"/>
 			<Item Name="MDAQ_IndexProgress.vi" Type="VI" URL="../FunctionVIS/MDAQ_IndexProgress.vi"/>
 			<Item Name="MDAQ_KeepTime.vi" Type="VI" URL="../FunctionVIS/MDAQ_KeepTime.vi"/>
+			<Item Name="MDAQ_MsgCuller.vi" Type="VI" URL="../FunctionVIS/MDAQ_MsgCuller.vi"/>
 			<Item Name="MDAQ_PrepCVArray.vi" Type="VI" URL="../FunctionVIS/MDAQ_PrepCVArray.vi"/>
 			<Item Name="MDAQ_SaveTime.vi" Type="VI" URL="../FunctionVIS/MDAQ_SaveTime.vi"/>
 			<Item Name="MDAQ_SetCycleDelta.vi" Type="VI" URL="../FunctionVIS/MDAQ_SetCycleDelta.vi"/>
@@ -67,6 +75,7 @@
 			<Item Name="MDAQ_ThresholdHelper.vi" Type="VI" URL="../FunctionVIS/MDAQ_ThresholdHelper.vi"/>
 		</Item>
 		<Item Name="IO_Blocks" Type="Folder">
+			<Item Name="MDAQ_CaptureTemps.vi" Type="VI" URL="../FunctionVIS/MDAQ_CaptureTemps.vi"/>
 			<Item Name="MDAQ_CMD_Write.vi" Type="VI" URL="../FunctionVIS/MDAQ_CMD_Write.vi"/>
 			<Item Name="MDAQ_READ_Spectrum.vi" Type="VI" URL="../FunctionVIS/MDAQ_READ_Spectrum.vi"/>
 			<Item Name="MDAQ_READ_Status.vi" Type="VI" URL="../FunctionVIS/MDAQ_READ_Status.vi"/>
@@ -79,9 +88,11 @@
 			<Item Name="Periodic Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Periodic Trigger__ogtk.vi"/>
 		</Item>
 		<Item Name="Parsing" Type="Folder">
+			<Item Name="MDAQ_FileParser.vi" Type="VI" URL="../FunctionVIS/MDAQ_FileParser.vi"/>
 			<Item Name="MDAQ_Parse.vi" Type="VI" URL="../FunctionVIS/MDAQ_Parse.vi"/>
 			<Item Name="MDAQ_Parse_Spectrum.vi" Type="VI" URL="../FunctionVIS/MDAQ_Parse_Spectrum.vi"/>
 			<Item Name="MDAQ_Parse_Sum.vi" Type="VI" URL="../FunctionVIS/MDAQ_Parse_Sum.vi"/>
+			<Item Name="MDAQ_RawDataParser.vi" Type="VI" URL="../FunctionVIS/MDAQ_RawDataParser.vi"/>
 		</Item>
 		<Item Name="Testing" Type="Folder">
 			<Item Name="3dShit.vi" Type="VI" URL="../FunctionVIS/3dShit.vi"/>
@@ -91,21 +102,14 @@
 			<Item Name="Untitled 2.vi" Type="VI" URL="../FunctionVIS/Untitled 2.vi"/>
 			<Item Name="Untitled 3.vi" Type="VI" URL="../FunctionVIS/Untitled 3.vi"/>
 		</Item>
-		<Item Name="AUX_LineWrite.vi" Type="VI" URL="../FunctionVIS/AUX_LineWrite.vi"/>
+		<Item Name="ANAL_TempSummer.vi" Type="VI" URL="../FunctionVIS/ANAL_TempSummer.vi"/>
 		<Item Name="CMD_ARG_Enum.ctl" Type="VI" URL="../FunctionVIS/CMD_ARG_Enum.ctl"/>
 		<Item Name="CMD_Enum.ctl" Type="VI" URL="../FunctionVIS/CMD_Enum.ctl"/>
 		<Item Name="DAT_Cluster.ctl" Type="VI" URL="../FunctionVIS/DAT_Cluster.ctl"/>
 		<Item Name="GUI_Def.ctl" Type="VI" URL="../FunctionVIS/GUI_Def.ctl"/>
 		<Item Name="LS330_Main.vi" Type="VI" URL="../LS330_Main Folder/LS330_Main.vi"/>
 		<Item Name="MDAQ_AnalysisProgram.vi" Type="VI" URL="../MDAQ_AnalysisProgram.vi"/>
-		<Item Name="MDAQ_CaptureTemps.vi" Type="VI" URL="../FunctionVIS/MDAQ_CaptureTemps.vi"/>
-		<Item Name="MDAQ_DataWriter.vi" Type="VI" URL="../FunctionVIS/MDAQ_DataWriter.vi"/>
-		<Item Name="MDAQ_FileParser.vi" Type="VI" URL="../FunctionVIS/MDAQ_FileParser.vi"/>
 		<Item Name="MDAQ_Main.vi" Type="VI" URL="../MDAQ_Main.vi"/>
-		<Item Name="MDAQ_MsgCuller.vi" Type="VI" URL="../FunctionVIS/MDAQ_MsgCuller.vi"/>
-		<Item Name="MDAQ_RawDataParser.vi" Type="VI" URL="../FunctionVIS/MDAQ_RawDataParser.vi"/>
-		<Item Name="MDAQ_ReadDatfile.vi" Type="VI" URL="../FunctionVIS/MDAQ_ReadDatfile.vi"/>
-		<Item Name="MDAQ_WriteFileHeader.vi" Type="VI" URL="../FunctionVIS/MDAQ_WriteFileHeader.vi"/>
 		<Item Name="Mode_Enum.ctl" Type="VI" URL="../FunctionVIS/Mode_Enum.ctl"/>
 		<Item Name="Status_Cluster.ctl" Type="VI" URL="../FunctionVIS/Status_Cluster.ctl"/>
 		<Item Name="Status_Def.ctl" Type="VI" URL="../FunctionVIS/Status_Def.ctl"/>
@@ -199,6 +203,7 @@
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Search Sorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Sorted 1D Array.vim"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -213,6 +218,7 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Two-Way Comparison Versus Array Element.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Two-Way Comparison Versus Array Element.vim"/>
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
