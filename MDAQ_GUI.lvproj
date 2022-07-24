@@ -23,7 +23,9 @@
 			<Item Name="ANAL_DQ.vi" Type="VI" URL="../FunctionVIS/ANAL_DQ.vi"/>
 			<Item Name="ANAL_GUIStatus.ctl" Type="VI" URL="../FunctionVIS/ANAL_GUIStatus.ctl"/>
 			<Item Name="ANAL_ProtoGraph.vi" Type="VI" URL="../FunctionVIS/ANAL_ProtoGraph.vi"/>
+			<Item Name="ANAL_SelectSpectrum.vi" Type="VI" URL="../FunctionVIS/ANAL_SelectSpectrum.vi"/>
 			<Item Name="ANAL_State.ctl" Type="VI" URL="../FunctionVIS/ANAL_State.ctl"/>
+			<Item Name="ANAL_TempSummer.vi" Type="VI" URL="../FunctionVIS/ANAL_TempSummer.vi"/>
 			<Item Name="ANAL_TimeSummer.vi" Type="VI" URL="../FunctionVIS/ANAL_TimeSummer.vi"/>
 			<Item Name="ANAL_TREECluster.ctl" Type="VI" URL="../FunctionVIS/ANAL_TREECluster.ctl"/>
 			<Item Name="ANAL_TreeString.vi" Type="VI" URL="../FunctionVIS/ANAL_TreeString.vi"/>
@@ -102,7 +104,6 @@
 			<Item Name="Untitled 2.vi" Type="VI" URL="../FunctionVIS/Untitled 2.vi"/>
 			<Item Name="Untitled 3.vi" Type="VI" URL="../FunctionVIS/Untitled 3.vi"/>
 		</Item>
-		<Item Name="ANAL_TempSummer.vi" Type="VI" URL="../FunctionVIS/ANAL_TempSummer.vi"/>
 		<Item Name="CMD_ARG_Enum.ctl" Type="VI" URL="../FunctionVIS/CMD_ARG_Enum.ctl"/>
 		<Item Name="CMD_Enum.ctl" Type="VI" URL="../FunctionVIS/CMD_Enum.ctl"/>
 		<Item Name="DAT_Cluster.ctl" Type="VI" URL="../FunctionVIS/DAT_Cluster.ctl"/>
