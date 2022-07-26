@@ -25,6 +25,7 @@
 			<Item Name="ANAL_ProtoGraph.vi" Type="VI" URL="../FunctionVIS/ANAL_ProtoGraph.vi"/>
 			<Item Name="ANAL_SelectSpectrum.vi" Type="VI" URL="../FunctionVIS/ANAL_SelectSpectrum.vi"/>
 			<Item Name="ANAL_State.ctl" Type="VI" URL="../FunctionVIS/ANAL_State.ctl"/>
+			<Item Name="ANAL_SurfaceGet.vi" Type="VI" URL="../FunctionVIS/ANAL_SurfaceGet.vi"/>
 			<Item Name="ANAL_TempSummer.vi" Type="VI" URL="../FunctionVIS/ANAL_TempSummer.vi"/>
 			<Item Name="ANAL_TimeSummer.vi" Type="VI" URL="../FunctionVIS/ANAL_TimeSummer.vi"/>
 			<Item Name="ANAL_TREECluster.ctl" Type="VI" URL="../FunctionVIS/ANAL_TREECluster.ctl"/>
@@ -71,6 +72,7 @@
 			<Item Name="MDAQ_PrepCVArray.vi" Type="VI" URL="../FunctionVIS/MDAQ_PrepCVArray.vi"/>
 			<Item Name="MDAQ_SaveTime.vi" Type="VI" URL="../FunctionVIS/MDAQ_SaveTime.vi"/>
 			<Item Name="MDAQ_SetCycleDelta.vi" Type="VI" URL="../FunctionVIS/MDAQ_SetCycleDelta.vi"/>
+			<Item Name="MDAQ_SurfaceHistogram.vi" Type="VI" URL="../FunctionVIS/MDAQ_SurfaceHistogram.vi"/>
 			<Item Name="MDAQ_SurfaceSum.vi" Type="VI" URL="../FunctionVIS/MDAQ_SurfaceSum.vi"/>
 			<Item Name="MDAQ_TargetHelper.vi" Type="VI" URL="../FunctionVIS/MDAQ_TargetHelper.vi"/>
 			<Item Name="MDAQ_TargetSender.vi" Type="VI" URL="../FunctionVIS/MDAQ_TargetSender.vi"/>
