@@ -32,6 +32,8 @@
 			<Item Name="ANAL_TreeString.vi" Type="VI" URL="../FunctionVIS/ANAL_TreeString.vi"/>
 			<Item Name="ANAL_UpdateIndex.vi" Type="VI" URL="../FunctionVIS/ANAL_UpdateIndex.vi"/>
 			<Item Name="Array_Cluster.ctl" Type="VI" URL="../FunctionVIS/Array_Cluster.ctl"/>
+			<Item Name="MDAQ_OldRawDataParser.vi" Type="VI" URL="../FunctionVIS/MDAQ_OldRawDataParser.vi"/>
+			<Item Name="MDAQ_ReadoldCSVfile.vi" Type="VI" URL="../FunctionVIS/MDAQ_ReadoldCSVfile.vi"/>
 		</Item>
 		<Item Name="Calibration" Type="Folder">
 			<Item Name="MDAQ_CalibrationCalc.vi" Type="VI" URL="../FunctionVIS/MDAQ_CalibrationCalc.vi"/>
@@ -200,6 +202,7 @@
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
+				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Search Sorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Sorted 1D Array.vim"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
