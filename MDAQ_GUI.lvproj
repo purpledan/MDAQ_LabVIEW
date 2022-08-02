@@ -116,9 +116,12 @@
 		<Item Name="LS330_Main.vi" Type="VI" URL="../LS330_Main Folder/LS330_Main.vi"/>
 		<Item Name="MDAQ_AnalysisProgram.vi" Type="VI" URL="../MDAQ_AnalysisProgram.vi"/>
 		<Item Name="MDAQ_Main.vi" Type="VI" URL="../MDAQ_Main.vi"/>
+		<Item Name="MDAQ_Parse_BINSpectrum.vi" Type="VI" URL="../FunctionVIS/MDAQ_Parse_BINSpectrum.vi"/>
+		<Item Name="MDAQ_TestProgram.vi" Type="VI" URL="../MDAQ_TestProgram.vi"/>
 		<Item Name="Mode_Enum.ctl" Type="VI" URL="../FunctionVIS/Mode_Enum.ctl"/>
 		<Item Name="Status_Cluster.ctl" Type="VI" URL="../FunctionVIS/Status_Cluster.ctl"/>
 		<Item Name="Status_Def.ctl" Type="VI" URL="../FunctionVIS/Status_Def.ctl"/>
+		<Item Name="TimeTEST.vi" Type="VI" URL="../FunctionVIS/TimeTEST.vi"/>
 		<Item Name="VariableLib.lvlib" Type="Library" URL="../LS330_Main Folder/VariableLib.lvlib"/>
 		<Item Name="XML_Cluster.ctl" Type="VI" URL="../FunctionVIS/XML_Cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -176,6 +179,7 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
 				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
