@@ -70,7 +70,7 @@
 			<Item Name="MDAQ_IndexIncNew.vi" Type="VI" URL="../MDAQ_IndexIncNew.vi"/>
 			<Item Name="MDAQ_IndexProgress.vi" Type="VI" URL="../FunctionVIS/MDAQ_IndexProgress.vi"/>
 			<Item Name="MDAQ_KeepTime.vi" Type="VI" URL="../FunctionVIS/MDAQ_KeepTime.vi"/>
-			<Item Name="MDAQ_MiniSum.vi" Type="VI" URL="../../../CrGroup/H8118_LabVIEW/Sources/MDAQ_MiniSum.vi"/>
+			<Item Name="MDAQ_MiniSum.vi" Type="VI" URL="../FunctionVIS/MDAQ_MiniSum.vi"/>
 			<Item Name="MDAQ_MsgCuller.vi" Type="VI" URL="../FunctionVIS/MDAQ_MsgCuller.vi"/>
 			<Item Name="MDAQ_PrepCVArray.vi" Type="VI" URL="../FunctionVIS/MDAQ_PrepCVArray.vi"/>
 			<Item Name="MDAQ_SaveTime.vi" Type="VI" URL="../FunctionVIS/MDAQ_SaveTime.vi"/>
