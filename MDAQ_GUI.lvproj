@@ -117,6 +117,7 @@
 		<Item Name="MDAQ_AnalysisProgram.vi" Type="VI" URL="../MDAQ_AnalysisProgram.vi"/>
 		<Item Name="MDAQ_Main.vi" Type="VI" URL="../MDAQ_Main.vi"/>
 		<Item Name="MDAQ_Parse_BINSpectrum.vi" Type="VI" URL="../FunctionVIS/MDAQ_Parse_BINSpectrum.vi"/>
+		<Item Name="MDAQ_ReadBuff.vi" Type="VI" URL="../FunctionVIS/MDAQ_ReadBuff.vi"/>
 		<Item Name="MDAQ_TestProgram.vi" Type="VI" URL="../MDAQ_TestProgram.vi"/>
 		<Item Name="Mode_Enum.ctl" Type="VI" URL="../FunctionVIS/Mode_Enum.ctl"/>
 		<Item Name="RereadBins.vi" Type="VI" URL="../FunctionVIS/RereadBins.vi"/>
