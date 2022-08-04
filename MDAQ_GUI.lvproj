@@ -119,6 +119,7 @@
 		<Item Name="MDAQ_Parse_BINSpectrum.vi" Type="VI" URL="../FunctionVIS/MDAQ_Parse_BINSpectrum.vi"/>
 		<Item Name="MDAQ_TestProgram.vi" Type="VI" URL="../MDAQ_TestProgram.vi"/>
 		<Item Name="Mode_Enum.ctl" Type="VI" URL="../FunctionVIS/Mode_Enum.ctl"/>
+		<Item Name="RereadBins.vi" Type="VI" URL="../FunctionVIS/RereadBins.vi"/>
 		<Item Name="Status_Cluster.ctl" Type="VI" URL="../FunctionVIS/Status_Cluster.ctl"/>
 		<Item Name="Status_Def.ctl" Type="VI" URL="../FunctionVIS/Status_Def.ctl"/>
 		<Item Name="TimeTEST.vi" Type="VI" URL="../FunctionVIS/TimeTEST.vi"/>
