@@ -122,6 +122,7 @@
 		<Item Name="Status_Cluster.ctl" Type="VI" URL="../FunctionVIS/Status_Cluster.ctl"/>
 		<Item Name="Status_Def.ctl" Type="VI" URL="../FunctionVIS/Status_Def.ctl"/>
 		<Item Name="TimeTEST.vi" Type="VI" URL="../FunctionVIS/TimeTEST.vi"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../../../TestDataLabVIEW/Untitled 1.vi"/>
 		<Item Name="VariableLib.lvlib" Type="Library" URL="../LS330_Main Folder/VariableLib.lvlib"/>
 		<Item Name="XML_Cluster.ctl" Type="VI" URL="../FunctionVIS/XML_Cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -179,7 +180,6 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="GPString.lvlib" Type="Library" URL="/&lt;vilib&gt;/GPower/String/GPString.lvlib"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
@@ -269,6 +269,7 @@
 			<Item Name="LS330_WRITE.vi" Type="VI" URL="../LS330_Main Folder/LS330_WRITE.vi"/>
 			<Item Name="LS330_WriteFile.vi" Type="VI" URL="../LS330_Main Folder/LS330_WriteFile.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="MDAQ_ReadBuff.vi" Type="VI" URL="../FunctionVIS/MDAQ_ReadBuff.vi"/>
 			<Item Name="MDAQ_Settings_Set.vi" Type="VI" URL="../FunctionVIS/MDAQ_Settings_Set.vi"/>
 			<Item Name="Scale_Cont.ctl" Type="VI" URL="../LS330_Main Folder/Scale_Cont.ctl"/>
 		</Item>
